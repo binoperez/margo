@@ -1,0 +1,33 @@
+{
+	"intent": "people",
+	"data": {
+		"took": 331,
+		"timed_out": false,
+		"_shards": {
+			"total": 2,
+			"successful": 2,
+			"failed": 0
+		},
+		"hits": {
+			"total": 724,
+			"max_score": 27.58157,
+			"hits": [{
+				"_index": "people20170706a",
+				"_type": "aspire/row",
+				"_id": "https://people.accenture.com/CrawlPages/Profile.aspx?eid=jerome.m.garcia",
+				"_score": 27.58157,
+				"fields": {
+					"cleanlevel": ["13", "Associate", "Transaction Processing New Associate"],
+					"interest": ["Barangay Ginebra - PBA", "Dictionay", "Good Benifits", "Playing Computer games DOTA 2", "Puerto Galera Oriental Mindoro (hometown)", "Street Foods In Philippines", "Understanding, Helpful"],
+					"cleancontentsource": ["people"],
+					"cleandescription": ["Hi im Jerome, Just call me YONG want to play dota pm me :)"],
+					"location": ["Caloocan City", "ManilaCity", "Philippines"],
+					"peoplekey": ["1487000"],
+					"cleantitle": ["Garcia, Jerome M."],
+					"cleanurl": ["https://people.accenture.com/experience.aspx?accountname=jerome.m.garcia"]
+				},
+				"matched_queries": ["INTEREST QUERY searchterm --> interest field"]
+			}]
+		}
+	}
+}

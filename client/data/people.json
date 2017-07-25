@@ -1,0 +1,104 @@
+{
+	"intent": "people",
+	"data": {
+		"took": 415,
+		"timed_out": false,
+		"_shards": {
+			"total": 2,
+			"successful": 2,
+			"failed": 0
+		},
+		"hits": {
+			"total": 6282,
+			"max_score": 24.779402,
+			"hits": [{
+					"_index": "people20170705b",
+					"_type": "aspire/row",
+					"_id": "https://people.accenture.com/CrawlPages/Profile.aspx?eid=antonio.parduci",
+					"_score": 24.779402,
+					"fields": {
+						"cleanlevel": [
+							"Accenture Leadership",
+							"Delivery Center Executive",
+							"Managing Director"
+						],
+						"cleancontentsource": [
+							"people"
+						],
+						"peoplekey": [
+							"4890"
+						],
+						"cleantitle": [
+							"Parduci, Antonio"
+						],
+						"cleanurl": [
+							"https://people.accenture.com/experience.aspx?accountname=antonio.parduci"
+						]
+					},
+					"matched_queries": [
+						"INTEREST QUERY searchterm --> interest field"
+					]
+				},
+				{
+					"_index": "people20170705b",
+					"_type": "aspire/row",
+					"_id": "https://people.accenture.com/CrawlPages/Profile.aspx?eid=peter.j.daley",
+					"_score": 15.05921,
+					"fields": {
+						"cleanlevel": [
+							"Accenture Leadership",
+							"Managing Director",
+							"Senior Digital Solution Arch Executive"
+						],
+						"cleancontentsource": [
+							"people"
+						],
+						"cleandescription": [
+							"I am a Managing Director in Accenture Digital, leading Digital Solution Design (DSD) in EALA. DSD defines the technologies, methods and architectures used in Accenture’s interactive, analytics and mobile solutions, and encompasses Solution Architecture and Technology Architecture for Digital. For much of the past 15 years, I have specialised in the delivery of mobile applications. Working with organisations with large distributed workforces, I have helped Accenture’s customers move from a world of custom middleware and device drivers, to a landscape of ubiquitous mobile apps, adoption of consumer devices, user-centric design, and now the internet-of-things. I am passionate about how technology can transform the way people and organisations work, and how techniques such as Agile can change the way we deliver software. I was originally trained as an aerospace engineer, making a brief foray into aerodynamics before embarking on a technology architecture career. During my time with Accenture I've worked in industries as diverse as financial services and professional football clubs, before finally specialising in mobility for utilities. I hold an MEng in Aeronautical Engineering, and am a Member of the Institution of Engineering Technology (MIET) and a Chartered Engineer."
+						],
+						"peoplekey": [
+							"85009"
+						],
+						"cleantitle": [
+							"Daley, Peter J."
+						],
+						"cleanurl": [
+							"https://people.accenture.com/experience.aspx?accountname=peter.j.daley"
+						]
+					},
+					"matched_queries": [
+						"INTEREST QUERY searchterm --> interest field"
+					]
+				},
+				{
+					"_index": "people20170705b",
+					"_type": "aspire/row",
+					"_id": "https://people.accenture.com/CrawlPages/Profile.aspx?eid=patricia.pimenta",
+					"_score": 15.05921,
+					"fields": {
+						"cleanlevel": [
+							"10",
+							"Analyst",
+							"Learning & Talent Development Sr Analyst"
+						],
+						"cleancontentsource": [
+							"people"
+						],
+						"peoplekey": [
+							"84436"
+						],
+						"cleantitle": [
+							"Pimenta, Patricia"
+						],
+						"cleanurl": [
+							"https://people.accenture.com/experience.aspx?accountname=patricia.pimenta"
+						]
+					},
+					"matched_queries": [
+						"INTEREST QUERY searchterm --> interest field"
+					]
+				}
+			]
+		}
+	}
+}
